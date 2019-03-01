@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<meta name="description" content="Trabajando con Reveal JS">
+         <meta name="author" content="Mélani Paredes">
+
+		<title>Mi presentación</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<!-- <link rel="stylesheet" href="css/theme/black.css">  --->
+		<link rel="stylesheet" href="css/theme/blood.css" id="theme">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+                
+				<section data-background-color="#ff0000">
+                 <h2>Mi presentación con Reveal JS</h2>
+                    <h4>Expositora: </h4>
+                    <p><small>Mélani Paredes</small> </p>
+               </section>
+
+
+               <section data-background="#3B6A3A">
+                
+               	  <h3> Introducción al Diseño web </h3>
+               	   <img src="images/image.png">
+               </section>
+                
+                
+				<section data-background="#F3470B">
+                <h3>¿Qué es Html?</h3>    
+                <p><strong> HyperText Markup Language. </strong>
+                    Es el elemento de construcción más básico de una página web y se usa para crear y representar visualmente una página web.El HTML se escribe en forma de «etiquetas», rodeadas por corchetes angulares </p>
+                </section>
+
+
+                <section data-background="#F3470B">
+                	<h3>¿Qué es HTML5? </h3>
+                    <p> <strong>HTML5  es la última versión de HTML. Nuevos elementos HTML5. Los más interesantes son: </strong> </p>
+                    
+                    <p class="fragment" data-fragment-index="1">Elementos semánticos: header, footer, article, and section.</p>
+                    <p class="fragment" data-fragment-index="2">Atributos de elementos de formulario: number, date, time, calendar, and range.</p>
+                    <p class="fragment" data-fragment-index="4">Elementos gráficos: svg y canvas.</p>
+                    <p class="fragment" data-fragment-index="3">Elementos multimedia: audio y video.</p>
+                
+                </section>
+                
+
+                <section data-background="#1F82C6">
+                	
+                	<h3>¿Qué es CSS?</h3>
+
+                  <p><strong> Cascading Stylesheets.</strong>Es un lenguaje de diseño gráfico para definir y crear la presentación de un documento estructurado escrito en un lenguaje de marcado.</p>
+                </section>
+
+                  <section data-markdown/ data-background="#1F82C6">
+                    <script type="text/template">
+                        ## Versiones de CSS
+                        - CSS3 <!-- .element: class="fragment" data-fragment-index="3" -->
+                        - CSS2 <!-- .element: class="fragment" data-fragment-index="2" -->
+                        - CSS1 <!-- .element: class="fragment" data-fragment-index="1" -->
+                    </script>
+                </section>
+                    
+                
+         
+ 
+
+               <section data-background="#BBAC33">
+               	
+                      <h3>¿Qué es JavaScript?</h3>
+
+                      <p>Es un lenguaje de programación que se ejecuta en el navegador y que se utiliza para mejorar la interacción con las páginas web</p>
+               </section>
+                
+                <section data-background="#BBAC33">
+                	  
+                	  <h3>¿Dónde se origina JavaScript?</h3>
+
+                	  <p>JavaScript fue desarrollado originalmente por Brendan Eich de Netscape con el nombre de <strong>Mocha</strong>, el cual fue renombrado posteriormente a LiveScript, para finalmente quedar como JavaScript.</p>
+
+                      <p>«JavaScript» es una marca registrada de Oracle Corporation.Es usada con licencia por los productos creados por Netscape Communications y entidades actuales como la Fundación Mozilla.</p>
+
+                </section>   
+
+                <section>
+                   <h3>Mis 3 pasatiempos favoritos</h3>
+                   <img src="images/pasatiempos.jpg">
+                </section>
+
+             <section>
+                
+                 <h3>Vamos a reir un poco...</h3>
+               
+                 <video data-autoplay src="video/video.mp4"></video>
+                
+                </section>
+              
+                
+                <section>
+                   
+                    <img src="images/gracias.jpg">
+                
+                </section>
+
+
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
